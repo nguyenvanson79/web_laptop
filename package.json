@@ -7,7 +7,7 @@
     "start": "tsc && node dist/app.js",
     "dev": "tsc && node dist/app.js"
   },
-  "node" : {
+  "nodemonConfig" : {
   "watch": ["src"],
   "ext": "ts",
   "ignore": ["node_modules"],
