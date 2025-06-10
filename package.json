@@ -7,6 +7,12 @@
     "start": "tsc && node dist/app.js",
     "dev": "tsc && node dist/app.js"
   },
+  "node" : {
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["node_modules"],
+  "exec": "ts-node ./src/app.ts"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nguyenvanson79/web_laptop.git"
